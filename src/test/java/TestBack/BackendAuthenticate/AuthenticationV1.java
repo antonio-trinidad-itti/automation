@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Autenticationv1 {
+public class AuthenticationV1 {
 
     private String sessionToken;
     private String refreshToken;
