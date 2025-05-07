@@ -1,3 +1,7 @@
+package TestWeb;
+
+import TestPage.CreateCompanyPage;
+import TestPage.LoginPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -34,7 +38,7 @@ public class CreateCompanyTest {
     public void crearEmpresaMasiva() throws InterruptedException {
         CreateCompanyPage createCompanyPage = new CreateCompanyPage(driver, wait);
 
-        for (int i = 11; i <= 26; i++) {
+        for (int i = 29; i <= 30; i++) {
             String nombre = "Jesus" + i;
             String apellido = "Martinez" + i;
             String cedula = "4562132" + i;

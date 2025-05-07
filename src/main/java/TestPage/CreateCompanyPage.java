@@ -1,3 +1,5 @@
+package TestPage;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -41,6 +43,8 @@ public class CreateCompanyPage extends BasePage {
     public void clickCrearEmpresa(){
         this.click(createCompanyButton);
     }
+
+    //driver.findElement(By.id(".sendText"));
 
     public void llenarCamposUsuario(String nombre, String apellido, String cedula, String telefono, String correo){
         this.sendText(nombre,firstName);
